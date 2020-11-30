@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Titillium+Web&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <button id="task-button">Nouvelle tache</button>
-    <ul id="task-list">
-
-    </ul>
     
+    <form id='task-form'>
+        <input id="task-input" type="text" autocomplete="off">
+        <input type="submit" value="Nouvelle tache">
+    </form>
+    <ul id="task-list"></ul>
+
     <script src="main.js"></script>
 </body>
 </html>
