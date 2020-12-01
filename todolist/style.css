@@ -68,7 +68,12 @@ li {
     font-family: 'Montserrat';
 }
 
+li:hover > .delete-button {
+    opacity : 1;
+}
+
 .delete-button {
+    opacity : 0;
     box-shadow : 0 0 4px rgba(35,35,35, 0.2);
     cursor : pointer;
     height : 30px;
@@ -78,7 +83,7 @@ li {
     font-weight: bold;
     border : none;
     border-radius : 4px;
-    transition : filter 0.2s ease;
+    transition : filter 0.2s ease, opacity 0.2s ease;
 }
 
 .delete-button:hover {
